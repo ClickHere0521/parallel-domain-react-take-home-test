@@ -3,9 +3,9 @@ import { ThemeProvider } from "@mui/material/styles";
 import { CssBaseline } from "@mui/material";
 
 // import app components
-import Header from "./components/Header";
-import Home from "./components/Home";
+import { Banner, Header, Home } from "./components";
 import theme from "./theme/mui";
+import "./App.css";
 
 function App() {
   return (
@@ -13,7 +13,7 @@ function App() {
       <CssBaseline />
 
       <Header />
-
+      <Banner />
       <Home />
     </ThemeProvider>
   );

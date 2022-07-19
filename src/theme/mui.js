@@ -92,6 +92,9 @@ const mui = createTheme({
           padding: "8px",
           color: colors.textLight,
         },
+        input: {
+          backgroundColor: "black",
+        },
       },
     },
     MuiButton: {

@@ -1,0 +1,19 @@
+import { Box, Typography } from "@mui/material";
+
+export function Heading() {
+  return (
+    <Box sx={{ maxWidth: "1024px", width: "100%", margin: "0 auto", py: 8 }}>
+      <Typography variant="h2" sx={{ textAlign: "center", mb: 2 }}>
+        Open Positions
+      </Typography>
+      <Typography
+        sx={{ textAlign: "center", maxWidth: "768px", margin: "0 auto" }}
+        variant="body1"
+      >
+        Our data is training and testing autonomous systems at companies around
+        the world. We're looking for talented visionaries to help us to expand
+        our impact on the way artificial intelligence is developed.
+      </Typography>
+    </Box>
+  );
+}
